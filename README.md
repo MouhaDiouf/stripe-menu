@@ -1,6 +1,5 @@
 # Building a stripe menu with React
-![screenshot](./src/screenshot.jpg)
-
+<img src="https://ibb.co/pQm0SWd" alt="screenshot"/>
 
 ## Technologies
 
