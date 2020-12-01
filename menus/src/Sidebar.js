@@ -20,15 +20,17 @@ function Sidebar() {
             return (
               <article key={index}>
                 <h4>{page}</h4>
-                {links.map((link, idx) => {
-                  const { url, icon, label } = link;
-                  return (
-                    <a href={url} key={idx}>
-                      {icon}
-                      {label}
-                    </a>
-                  );
-                })}
+                <div className="sidebar-sublinks">
+                  {links.map((link, idx) => {
+                    const { url, icon, label } = link;
+                    return (
+                      <a href={url} key={idx}>
+                        {icon}
+                        {label}
+                      </a>
+                    );
+                  })}
+                </div>
               </article>
             );
           })}
